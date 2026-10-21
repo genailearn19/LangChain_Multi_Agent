@@ -1,9 +1,6 @@
-from src.tools.tools import tavily_web_search, extract_scrape_url
+from src.pipeline.pipeline import run_research_pipeline
 from rich import print
 
-
-result =extract_scrape_url.invoke({
-    "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
-})
-
+topic = "The impact of artificial intelligence on the job market and employment trends"
+result = run_research_pipeline(topic)
 print(result)
