@@ -9,7 +9,7 @@ from src.pipeline.pipeline import run_research_pipeline
 # PAGE CONFIGURATION
 # =========================================================
 st.set_page_config(
-    page_title="AI Research Studio",
+    page_title="Eswara AI Research Studio",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -344,7 +344,7 @@ if "research_topic" not in st.session_state:
 # SIDEBAR
 # =========================================================
 with st.sidebar:
-    st.markdown("## 🔬 AI Research Studio")
+    st.markdown("## 🔬 Eswara AI Research Studio")
     st.caption("MULTI-AGENT RESEARCH WORKSPACE")
 
     st.divider()
@@ -406,7 +406,7 @@ with st.sidebar:
 # =========================================================
 st.markdown("""
 <div class="hero">
-    <h1>🔬 AI Research Studio</h1>
+    <h1>🔬 Eswara AI Research Studio</h1>
     <p>
         Your intelligent research workspace.
         Discover reliable sources, analyze content, generate
