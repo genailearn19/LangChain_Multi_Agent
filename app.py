@@ -339,7 +339,6 @@ if "research_data" not in st.session_state:
 if "research_topic" not in st.session_state:
     st.session_state.research_topic = ""
 
-
 # =========================================================
 # SIDEBAR
 # =========================================================
